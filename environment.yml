@@ -4,6 +4,7 @@ channels:
   - pyrocko
 dependencies:
   - python=3.11
+  - wget
   - setuptools<60
   - aria-tools
   - asf_search
