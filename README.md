@@ -1,5 +1,5 @@
 # NISAR data processing
-This reposiratory will demonstrate how to download NISAR data, and also get and visualize the interfeofram phase, coherence and correction files (ionosphere, troposhere).
+This reposiratory will demonstrate how to download NISAR data, and also get and visualize the interfeofram phase, coherence and correction files (ionosphere, troposhere etc).
 
 ## Set up conda enviorbment
 
@@ -36,5 +36,5 @@ chmod 600 $HOME/.netrc
 For, demonastration we will download data for Venezuella earthquake. On June 24th, 2026, a pair of earthquakes of Magnitude 7.2 and Magnitude 7.5 occurred in northern Venezuela, west of Caracas. The interferogram was derived from NISAR (NASA-ISRO Synthetic Aperture Radar) data acquired on June 25 June (after the earthquakes) and June 13  (before the earthquakes).
 
 ```bash
-!wget https://nisar.asf.earthdatacloud.nasa.gov/NISAR/NISAR_L2_GUNW_PROVISIONAL_V1/NISAR_L2_PR_GUNW_022_162_A_007_023_4000_SH_20260613T100656_20260613T100731_20260625T100655_20260625T100730_P05023_N_F_J_001/NISAR_L2_PR_GUNW_022_162_A_007_023_4000_SH_20260613T100656_20260613T100731_20260625T100655_20260625T100730_P05023_N_F_J_001.h5
+wget https://nisar.asf.earthdatacloud.nasa.gov/NISAR/NISAR_L2_GUNW_PROVISIONAL_V1/NISAR_L2_PR_GUNW_022_162_A_007_023_4000_SH_20260613T100656_20260613T100731_20260625T100655_20260625T100730_P05023_N_F_J_001/NISAR_L2_PR_GUNW_022_162_A_007_023_4000_SH_20260613T100656_20260613T100731_20260625T100655_20260625T100730_P05023_N_F_J_001.h5
 ```
