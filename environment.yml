@@ -1,0 +1,40 @@
+name: insar-env
+channels:
+  - conda-forge
+  - pyrocko
+dependencies:
+  - python=3.11
+  - setuptools<60
+  - aria-tools
+  - asf_search
+  - autorift
+  - boto3
+  - burst2safe
+  - compass
+  - dolphin
+  - hyp3_sdk
+  - ipykernel
+  - ipympl
+  - isce2
+  - isce3
+  - jupyter
+  - libgdal-hdf5
+  - libgdal-netcdf
+  - mintpy>=1.6.4
+  - netcdf4
+  - numpy>=1.24.0
+  - pip
+  - pv
+  - pyrocko
+  - sardem
+  - rioxarray
+  - rasterio
+  - scipy
+  - sentineleof
+  - snaphu
+  - whirlwind-insar>=0.8.0
+  - pip:
+    - h5py
+    - url-widget
+    - okada_wrapper
+    - kite
