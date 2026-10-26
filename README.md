@@ -25,8 +25,6 @@ echo "machine urs.earthdata.nasa.gov login myUsername password myPassword" > $HO
 ```
 
 
-Or you can substitute your EarthData account login name into `myUsername` and your EarthData password into `myPassword` in the next cell below, which will run the same command from the notebook.
-
 Because the `.netrc` file has your personal password, you should change the file protections so that nobody can view it. Some programs will check the file permissions and refuse to run until you make the file not readable by anybody else.
 
 We use the standard Linux or Unix file permission command `chmod` to change the file permissions. The permissions `600` means readable by you and nobody else. Again, you can do this in a terminal window or use the notebook cell below.
