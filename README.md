@@ -6,7 +6,7 @@ This repository demonstrates how to download NISAR data and retrieve and visuali
 First, clone the repository and create a Conda environment.
 
 ```bash
-git clone https://github.com/nafissk/nisar_test.git
+git clone https://github.com/nafissk/nisar_test.git && cd nisar_test
 conda env create -f environment.yml
 conda activate insar-env
 ```
