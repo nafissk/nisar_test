@@ -15,7 +15,6 @@ dependencies:
   - hyp3_sdk
   - ipykernel
   - ipympl
-  - isce2
   - isce3
   - jupyter
   - libgdal-hdf5
@@ -36,5 +35,4 @@ dependencies:
   - pip:
     - h5py
     - url-widget
-    - okada_wrapper
     - kite
